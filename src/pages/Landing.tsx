@@ -21,16 +21,16 @@ const Landing = () => {
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
-              <Sparkles className="w-4 h-4 text-secondary" />
-              <span className="text-sm text-foreground">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6 bg-gradient-to-r from-blue-800 to-cyan-500">
+              <Sparkles className="w-4 h-4 text-white" />
+              <span className="text-white">
                 Rede Profissional com Inteligência Artificial
               </span>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight ">
               Sua Carreira,
-              <span className="text-gradient text-cyan-500"> Reimaginada</span>
+              <span className="text-gradient text-blue-500"> Reimaginada</span>
             </h1>
 
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">

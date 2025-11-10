@@ -4,7 +4,7 @@ import { Zap } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-border/50">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-border/50 shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 group">
@@ -17,25 +17,25 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-8">
             <Link
               to="/"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               Home
             </Link>
             <Link
               to="/projects"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               Projetos
             </Link>
             <Link
               to="/dashboard"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               Dashboard
             </Link>
             <Link
               to="/profile"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               Perfil
             </Link>
