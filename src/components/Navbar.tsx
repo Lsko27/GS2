@@ -39,6 +39,12 @@ const Navbar = () => {
             >
               Perfil
             </Link>
+            <Link
+              to="/settings"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Configurações
+            </Link>
           </div>
 
           <div className="flex items-center gap-3">
